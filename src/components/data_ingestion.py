@@ -50,9 +50,4 @@ class DataIngestion:
         
         ## run data ingestion
         
-if __name__=='__main__':
-            obj=DataIngestion()
-            train_data_path,test_data_path=obj.initiate_data_ingestion()
-            #print(train_data)
-            data_transformation=DataTransformation()
-            st_arr=data_transformation.initiate_data_transformation(train_data_path,test_data_path)
+
